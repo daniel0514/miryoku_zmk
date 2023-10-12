@@ -8,14 +8,15 @@ on:
       board:
         description: 'board'
         required: true
+        default: 'nice_nano_v2'
       shield:
         description: 'shield'
         required: false
-        default: 'default'
+        default: 'corne_left nice_view_adapter nice_view,corne_right nice_view_adapter nice_view'
       alphas:
         description: 'alphas'
         required: false
-        default: 'default'
+        default: 'ColemakDHK'
         type: choice
         options:
         - "default"
@@ -62,15 +63,15 @@ on:
       custom_config:
         description: 'custom_config'
         required: false
-        default: 'default'
+        default: '#define MIRYOKU_KLUDGE_MOUSEKEYSPR'
       kconfig:
         description: 'kconfig'
         required: false
-        default: 'default'
+        default: 'CONFIG_ZMK_MOUSE=y'
       branches:
         description: 'branches'
         required: false
-        default: 'default'
+        default: 'zmkfirmware/zmk/main urob/zmk/mouse-3.2'
 jobs:
   process-inputs:
     runs-on: ubuntu-latest
