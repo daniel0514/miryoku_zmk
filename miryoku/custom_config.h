@@ -37,3 +37,28 @@ XXX  &kp ESC    &kp N1  &kp W  &kp N3  &kp N5       &kp F1  &kp F2    &kp F3    
 XXX  &kp LSHFT  &kp A   &kp S  &kp D   &kp N6       &kp F6  &kp F7    &kp F8    &kp F9    &kp F10   XXX \
 XXX  &kp LCTRL  &kp N2  &kp X  &kp N4  &kp N7       &kp P   &kp SEMI  &kp FSLH  &kp LBKT  &kp RBKT  XXX \
                 &kp LALT       &kp SPC    XXX       &to U_BASE        U_NP      U_NP
+
+
+#define MIRYOKU_LAYERMAPPING_MOUSE( \
+     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+) \
+XXX  K00  K01  K02  K03  K04       K05  K09  K18  K07  K08  &kp RET \
+XXX  K10  K11  K12  K13  K14       K15  K16  K17  K19  K06  XXX \
+XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
+               K32  K33  K34       K35  K36  K37
+
+
+#define MIRYOKU_LAYERMAPPING_NAV( \
+     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+) \
+XXX  K00  K01  K02  K03  K04       K05  K09  K18  K07  K08  &kp RET \
+XXX  K10  K11  K12  K13  K14       K15  K16  K17  K19  K06  XXX \
+XXX  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  XXX \
+               K32  K33  K34       K35  K36  K37
+
