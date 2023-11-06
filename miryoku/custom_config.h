@@ -21,10 +21,10 @@
           K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
           N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  &kp TAB    &kp Q  &kp W  &kp E  &kp R       &kp T  &kp Y  &kp U  &kp I         &kp O       XXX \
-XXX  &kp LSHFT  &kp A  &kp S  &kp D  &kp F       &kp G  &kp H  &kp J  &kp K         &kp L       XXX \
-XXX  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V       &kp B  &kp N  &kp M  &kp KP_COMMA  &kp KP_DOT  XXX \
-             &kp LALT  &kp SPC   &mo U_TAP       U_NP   U_NP   U_NP
+&kp ESC  &kp TAB    &kp Q  &kp W  &kp E  &kp R       &kp T  &kp Y  &kp U  &kp I         &kp O       XXX \
+XXX      &kp LSHFT  &kp A  &kp S  &kp D  &kp F       &kp G  &kp H  &kp J  &kp K         &kp L       XXX \
+XXX      &kp LCTRL  &kp Z  &kp X  &kp C  &kp V       &kp B  &kp N  &kp M  &kp KP_COMMA  &kp KP_DOT  XXX \
+                 &kp LALT  &kp SPC   &mo U_TAP       U_NP   U_NP   U_NP
 
 
 #define MIRYOKU_LAYERMAPPING_TAP( \
@@ -33,10 +33,10 @@ XXX  &kp LCTRL  &kp Z  &kp X  &kp C  &kp V       &kp B  &kp N  &kp M  &kp KP_COM
           K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
           N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-XXX  &kp ESC    &kp N1  &kp W  &kp N3  &kp N5       &kp F1  &kp F2    &kp F3    &kp F4    &kp F5    XXX \
-XXX  &kp LSHFT  &kp A   &kp S  &kp D   &kp N6       &kp F6  &kp F7    &kp F8    &kp F9    &kp F10   XXX \
-XXX  &kp LCTRL  &kp N2  &kp X  &kp N4  &kp N7       &kp P   &kp SEMI  &kp FSLH  &kp LBKT  &kp RBKT  XXX \
-                &kp LALT       &kp SPC    XXX       &to U_BASE        U_NP      U_NP
+&kp ESC  &kp TAB    &kp N1  &kp W  &kp N3  &kp N5       &kp F1  &kp F2    &kp F3    &kp F4    &kp F5    XXX \
+XXX      &kp LSHFT  &kp A   &kp S  &kp D   &kp N6       &kp F6  &kp F7    &kp F8    &kp F9    &kp F10   XXX \
+XXX      &kp LCTRL  &kp N2  &kp X  &kp N4  &kp N7       &kp P   &kp SEMI  &kp FSLH  &kp LBKT  &kp RBKT  XXX \
+                 &kp LALT       &kp SPC    XXX       &to U_BASE        U_NP      U_NP
 
 
 #define MIRYOKU_LAYERMAPPING_MOUSE( \
